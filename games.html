@@ -1,83 +1,120 @@
-<!doctype html>
 
+<!DOCTYPE html>
 <html>
-<head>
-<title>Games</title>
-</head>
-	<style type="text/css">
-		a:link, a:visited {
-		color:#FFFFFF;
-		padding: 7px 17px;
-		border: 1px solid #FFFFFF;
-		text-decoration:none;
-		background-color:#1e1e1e;
-		}
-		
-		a:hover, a:active {
-		color:#FFFFFF;
-		border: 1px solid #FFFFFF;
-		text-decoration:none;
-		background-color:#757575;
-		}
-		
-				body {
-						background-color:#1e1e1e;
-		color:#FFFFFF;font-family:arial;
-			width: 90%;
-		margin: auto;
-		}
-		
-				img {
-			width: 100%;
-			margin-top: 50px;
-		}
-
-						iframe {
-						margin-top: 50px;
-
-		}
-		
-				#heading {
-				
-		margin: auto;
-		}
-
-	</style>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <body>
-<div id="heading"><h1>System Interactive</h1></div>
-
-<div id="navbar">
-<a href="index.html">Home</a>
-<a href="games.html">Games</a>
-<a href="art.html">Art</a>
-<a href="ld.html">Level Design</a>
-<a href="https://play.google.com/store/apps/developer?id=System+Interactive">Google Play</a>
-<a href="privacypolicy.html">Privacy Policy</a>
-<!--<a href="https://www.instagram.com/ethanarchambault/">Instagram</a>-->
-</div>
-<iframe frameborder="0" src="https://itch.io/embed/691579?dark=true" width="552" height="167"><a href="https://system-interactive.itch.io/carclash">Car Clash by System Interactive</a></iframe>
 
 
-<!-- 
-<div id="img1">
-<img src="newpic1.png"/>
+<div class="w3-top">
+  <div class="w3-animate-top w3-bar w3-white w3-wide w3-padding w3-card">
+    <a href="index.html" class="w3-bar-item w3-button"><b>System</b> Interactive</a>
+    <div class="w3-right w3-hide-small">
+      <a href="games.html" class="w3-bar-item w3-button">Games</a>
+      <a href="levels.html" class="w3-bar-item w3-button">Level Design</a>
+      <a href="art.html" class="w3-bar-item w3-button">Art</a>
+	  <a href="about.html" class="w3-bar-item w3-button">About</a>
+    </div>
+  </div>
 </div>
-<div id="img2">
-<img src="newpic2.png"/>
-</div>
-<div id="img3">
-<img src="newpic3.png"/>
-</div>
-<div id="img4">
-<img src="newpic4.png"/>
-</div>
-<div id="img5">
-<img src="newpic5.png"/>
-</div>
--->
+ 
+  <div class="w3-content w3-center w3-padding" style="max-width:1564px">
+  <div class="w3-animate-right w3-container w3-padding-32" id="about">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Games</h3>
+    <p>The following games were created using Unity, Maya, Substance Painter, Krita, Reaper, and Audacity.
+    </p>
+  </div>
+  </div>
 
-<!--<iframe frameborder="0" src="https://itch.io/embed/691579?dark=true" width="208" height="167"><a href="https://system-interactive.itch.io/carclash">Car Clash by System Interactive</a></iframe>-->
+       
+<div class="w3-row-padding">
+  <div class="w3-container w3-third">
+    <img src="images/ex3.jpg" style="width:100%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity">
+  </div>
+  <div class="w3-container w3-third">
+    <img src="images/ex1.jpg" style="width:100%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity">
+  </div>
+  <div class="w3-container w3-third">
+    <img src="images/ex4.jpg" style="width:100%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity">
+  </div>
+          <div class="w3-container w3-third w3-margin-top">
+    <img src="images/dgPort1.jpg" style="width:100%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity">
+  </div>  <div class="w3-container w3-third w3-margin-top">
+    <img src="images/dgPort2.jpg" style="width:100%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity">
+  </div>  <div class="w3-container w3-third w3-margin-top">
+    <img src="images/dgdl.png" style="width:100%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity">
+  </div>  <div class="w3-container w3-third w3-margin-top">
+    <img src="images/z8.png" style="width:100%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity">
+  </div>  <div class="w3-container w3-third w3-margin-top">
+    <img src="images/3soBV7.png" style="width:100%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity">
+  </div>  <div class="w3-container w3-third w3-margin-top">
+    <img src="images/rtsSnap.png" style="width:100%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity">
+  </div>
+    <div class="w3-container w3-third w3-margin-top">
+    <img src="images/games/e1.png" style="width:100%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity">
+  </div>  <div class="w3-container w3-third w3-margin-top">
+    <img src="images/games/e2.png" style="width:100%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity">
+  </div>  <div class="w3-container w3-third w3-margin-top">
+    <img src="images/games/mmbg.png" style="width:100%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity">
+  </div>    <div class="w3-container w3-third w3-margin-top">
+    <img src="images/games/Y7u6ng.png" style="width:100%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity">
+  </div>   <div class="w3-container w3-third w3-margin-top">
+    <img src="images/games/mut1.png" style="width:100%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity">
+  </div>    <div class="w3-container w3-third w3-margin-top">
+    <img src="images/games/z7.png" style="width:100%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity">
+  </div>   <div class="w3-container w3-third w3-margin-top">
+    <img src="images/games/d4.jpg" style="width:100%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity">
+  </div>
+  <div class="w3-container w3-third w3-margin-top">
+    <img src="images/games/d5.jpg" style="width:100%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity">
+  </div>
+ <div class="w3-container w3-third w3-margin-top">
+    <img src="images/games/d1.jpg" style="width:100%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity">
+  </div>
+</div>
+
+<div id="modal01" class="w3-modal" onclick="this.style.display='none'">
+  <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+  <div class="w3-modal-content w3-animate-zoom">
+    <img id="img01" style="width:100%">
+  </div>
+</div>
+
+<script>
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+}
+</script>
+    
+<footer class="w3-center w3-black w3-padding-16">
+  <p>Play our games on <a href="https://play.google.com/store/apps/developer?id=System+Interactive" title="Google Play" target="_blank" class="w3-hover-text-green"> Google Play!</a></p>
+  
+    <p><a href="index.html" title="Google Play" target="_blank" class="w3-hover-text-green">System Interactive</a></p>
+  
+  <p>2020</p>
+
+</footer>
 
 </body>
-
 </html>
